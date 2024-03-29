@@ -11,10 +11,10 @@
         label = "KSCAN";
 
         input-gpios
-            = <&pro_micro_a 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        ,<&pro_micro_a 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        ,<&pro_micro_a 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        ,<&pro_micro_a 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&pro_micro_a 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        ,<&pro_micro_a 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        ,<&pro_micro_a 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        ,<&pro_micro_a 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ,<&pro_micro_a 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ,<&pro_micro_a 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ,<&pro_micro_a 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
