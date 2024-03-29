@@ -20,7 +20,7 @@
 #define PAREN   4
 #define SYMBOL  5
 #define EXTRA   6
-#define BT_SEL  7
+#define BT  7
 
 #define TIMEOUT_COMBO_2 175
 #define TIMEOUT_COMBO_3 175
@@ -204,7 +204,7 @@
 		combo_tab             { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_H>; bindings = <&kp TAB>; };
 		combo_space           { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_S KEY_N KEY_T KEY_H>; bindings = <&kp SPACE>; };
 		combo_shift           { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_S KEY_E KEY_O KEY_A>; bindings = <&sk LSHFT>; };
-		combo_layer_bt_select { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_A KEY_S KEY_H>; bindings = <&tog BT_SEL>; };
+		combo_layer_bt_select { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_A KEY_S KEY_H>; bindings = <&tog BT>; };
 		combo_bt_clr          { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_O KEY_N KEY_T>; bindings = <&bt BT_CLR>; };
 
 		combo_z         { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_A>; bindings = <&kp Z>; };
