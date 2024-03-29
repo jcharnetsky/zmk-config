@@ -93,16 +93,16 @@
             >;
         };
 
-        symbol_layer {
-        // -----------------
-        // | ` | ; | \ | ! |
-        // | = | - | ? |   |
-        // -----------------
-            bindings = <
-            &kp GRAVE   &kp SEMI    &kp BSLSH   &kp EXCL
-            &kp EQUAL   &kp MINUS   &kp QMARK   &mo SYMBOL
-            >;
-        };
+        //symbol_layer {
+        //// -----------------
+        //// | ` | ; | \ | ! |
+        //// | = | - | ? |   |
+        //// -----------------
+        //    bindings = <
+        //    &kp GRAVE   &kp SEMI    &kp BSLSH   &kp EXCL
+        //    &kp EQUAL   &kp MINUS   &kp QMARK   &mo SYMBOL
+        //    >;
+        //};
 
         extra_layer {
         // -----------------
