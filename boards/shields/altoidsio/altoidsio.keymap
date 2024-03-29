@@ -46,7 +46,7 @@
 
 / {
     keymap {
-        compatible = "zmk, keymap";
+        compatible = "zmk,keymap";
 
         default {
         // -----------------
@@ -206,22 +206,22 @@
 
 / {
 	behaviors {
-		layer_base_kp: layer_base_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_base_kp"; 
+		layer_base_kp: layer_base_kp { compatible = "zmk,behavior-hold-tap";
 						#binding-cells = <2>; tapping-term-ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred"; 
 						bindings = <&mo>, <&kp>; };
-		layer_numbers_kp: layer_numbers_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_numbers_kp"; 
+		layer_numbers_kp: layer_numbers_kp { compatible = "zmk,behavior-hold-tap";
 						#binding-cells = <2>; tapping-term-ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred"; 
 						bindings = <&mo>, <&kp>; };
-		layer_symbols_kp: layer_symbols_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_symbols_kp"; 
+		layer_symbols_kp: layer_symbols_kp { compatible = "zmk,behavior-hold-tap";
 						#binding-cells = <2>; tapping-term-ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred"; 
 						bindings = <&mo>, <&kp>; };
-		layer_parentheticals_kp: layer_parentheticals_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_parentheticals_kp";
+		layer_parentheticals_kp: layer_parentheticals_kp { compatible = "zmk,behavior-hold-tap";
 						#binding-cells = <2>; tapping-term-ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
-		layer_extra_kp: layer_extra_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_extra_kp";
+		layer_extra_kp: layer_extra_kp { compatible = "zmk,behavior-hold-tap";
 						#binding-cells = <2>; tapping-term-ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
-		ctrl_alt_kp: ctrl_alt_kp { compatible = "zmk,behavior-hold-tap"; label = "ctrl_alt_kp";
+		ctrl_alt_kp: ctrl_alt_kp { compatible = "zmk,behavior-hold-tap";
 						#binding-cells = <2>; tapping-term-ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&sk>, <&sk>; };
 	};
