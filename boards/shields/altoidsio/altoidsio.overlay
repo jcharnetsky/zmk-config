@@ -20,5 +20,5 @@
         ,<&pro_micro_a 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ,<&pro_micro_a 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ;
-    }
+    };
 };
