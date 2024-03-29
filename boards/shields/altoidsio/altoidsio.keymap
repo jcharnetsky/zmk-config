@@ -165,7 +165,7 @@
 
 		combo_b           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_S KEY_H>; bindings = <&kp B>; };
 		combo_c           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_S KEY_N>; bindings = <&kp C>; };
-		combo_r           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_H>; bindings = <&kp ARDUX_COMBO_R>; };
+		combo_r           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_H>; bindings = <&kp R>; };
 		combo_f           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_U KEY_E>; bindings = <&kp F>; };
 		combo_g           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_S>; bindings = <&kp G>; };
 		combo_u           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_T>; bindings = <&kp U>; };
