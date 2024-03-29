@@ -188,7 +188,7 @@
 		 * 3 key combos
 		 *****************************************/
 		combo_esc              { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_U KEY_E KEY_H>; bindings = <&kp ESC>; };
-		combo_layer_navigation { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_E KEY_S KEY_T>; bindings = <&tog LAYER_ID_NAVIGATION>; };
+		combo_layer_navigation { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_E KEY_S KEY_T>; bindings = <&tog NAV>; };
 
 		combo_m            { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_N KEY_T KEY_H>; bindings = <&kp M>; };
 		combo_d            { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_U KEY_E KEY_O>; bindings = <&kp D>; };
