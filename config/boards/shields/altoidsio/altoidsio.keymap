@@ -137,7 +137,7 @@
 		 * 2 key combos
 		 *****************************************/
 		// Function layer doesn't apply to non-big ardux presently
-		combo_enter      { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_S>; bindings = <&kp ENTER>; };
+		combo_enter      { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_U KEY_H>; bindings = <&kp ENTER>; };
 		combo_control    { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_H>; bindings = <&sk LCTRL>; };
 		combo_gui        { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_T>; bindings = <&sk LGUI>; };
 		combo_alt        { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_N>; bindings = <&sk LALT>; };
