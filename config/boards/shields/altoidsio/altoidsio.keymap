@@ -3,16 +3,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define KEY_U 0
-#define KEY_E 1
-#define KEY_O 2
-#define KEY_A 3
-
-#define KEY_S 4
-#define KEY_N 5
-#define KEY_T 6
-#define KEY_H 7
-
 #define BASE    0
 #define NAV     1
 #define MOUSE   2
@@ -28,10 +18,10 @@
 #define TIMEOUT_LAYER_HOLD 200
 #define TIMEOUT_STICKY_LEADER_KEY 5000
 
-#define KEY_U 0
-#define KEY_E 1
-#define KEY_O 2
-#define KEY_A 3
+#define KEY_A 0
+#define KEY_O 1
+#define KEY_E 2
+#define KEY_U 3
 #define KEY_S 4
 #define KEY_N 5
 #define KEY_T 6
