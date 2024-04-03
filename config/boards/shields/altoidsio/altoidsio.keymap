@@ -60,16 +60,16 @@
             >;
         };
 
-        //mouse_layer {
-        //// -----------------
-        //// |sc+|bt2|up |bt1|
-        //// |sc-|lft|dn |rgh|
-        //// -----------------
-        //    bindings = <
-        //    &kp A   &kp 3   &kp 2   &kp 1
-        //    &kp H   &kp 6   &kp 5   &kp 4
-        //    >;
-        //};
+        mouse_layer {
+        // -----------------
+        // |sc+|bt2|up |bt1|
+        // |sc-|lft|dn |rgh|
+        // -----------------
+            bindings = <
+            &kp A   &kp 3   &kp 2   &kp 1
+            &kp H   &kp 6   &kp 5   &kp 4
+            >;
+        };
 
         number {
         //         8   7
