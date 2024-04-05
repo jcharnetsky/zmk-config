@@ -161,7 +161,7 @@
 		combo_backspace  { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_H>; bindings = <&kp BACKSPACE>; };
 		combo_delete     { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_N>; bindings = <&kp DELETE>; };
 		combo_shift_lock { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_T>; bindings = <&kt LSHFT>; };
-		combo_layer_fun  { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_S>; bindings = <&sl FUNCTION>; };
+		combo_layer_fun  { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_S>; bindings = <&sl FUN>; };
 
 		combo_b           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_S KEY_H>; bindings = <&kp B>; };
 		combo_c           { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_T>; bindings = <&kp C>; };
@@ -183,10 +183,10 @@
 		combo_eight { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_O>; bindings = <&kp N8>; };
 		combo_nine  { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_T>; bindings = <&kp N9>; };
 		combo_zero  { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_T>; bindings = <&kp N0>; };
-		combo_f_seven { layers = <FUNCTION>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_U KEY_E>; bindings = <&kp F7>; };
-		combo_f_eight { layers = <FUNCTION>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_O>; bindings = <&kp F8>; };
-		combo_f_nine  { layers = <FUNCTION>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_T>; bindings = <&kp F9>; };
-		combo_f_ten  { layers = <FUNCTION>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_T>; bindings = <&kp F10>; };
+		combo_f_seven { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_U KEY_E>; bindings = <&kp F7>; };
+		combo_f_eight { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_O>; bindings = <&kp F8>; };
+		combo_f_nine  { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_T>; bindings = <&kp F9>; };
+		combo_f_ten  { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_T>; bindings = <&kp F10>; };
 
 
 		/*****************************************
