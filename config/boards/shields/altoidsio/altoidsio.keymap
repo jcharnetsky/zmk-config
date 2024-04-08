@@ -212,6 +212,10 @@
 		combo_z               { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_A>; bindings = <&kp Z>; };
 		combo_caps_lock       { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_N KEY_T KEY_S>; bindings = <&kp CAPS>; };
 	};
+		/*****************************************
+		 * 8 key combos
+		 *****************************************/
+		combo_restart             { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_A KEY_H KEY_T KEY_N KEY_S>; bindings = <&sys_reset>; };
 };
 
 / {
