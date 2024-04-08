@@ -1,6 +1,6 @@
 if SHIELD_ALTOIDSIO
 
 config ZMK_KEYBOARD_NAME
-    default "Altoids IO"
+    default "Altoid IO"
 
 endif
