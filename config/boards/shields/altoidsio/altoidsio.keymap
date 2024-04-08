@@ -34,9 +34,6 @@
 &sl {
     release-after-ms = <TIMEOUT_STICKY_LEADER_KEY>;
 };
-&soft_off {
-    hold-time-ms = <5000>; // Only turn off it the key is held for 5 seconds or longer.
-};
 
 / {
     keymap {
@@ -211,10 +208,10 @@
 		combo_shift           { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_H KEY_E KEY_O KEY_A>; bindings = <&sk LSHFT>; };
 		combo_layer_bt_select { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_A KEY_S KEY_H>; bindings = <&tog BLUE>; };
 		combo_bt_clr          { layers = <BLUE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_O KEY_N KEY_T>; bindings = <&bt BT_CLR>; };
-		combo_soft_off          { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_O KEY_N KEY_T>; bindings = <&soft_off>; };
+		combo_soft_off        { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_O KEY_N KEY_T>; bindings = <&soft_off>; };
 
-		combo_z         { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_A>; bindings = <&kp Z>; };
-		combo_caps_lock { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_N KEY_T KEY_S>; bindings = <&kp CAPS>; };
+		combo_z               { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_A>; bindings = <&kp Z>; };
+		combo_caps_lock       { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_N KEY_T KEY_S>; bindings = <&kp CAPS>; };
 	};
 };
 
