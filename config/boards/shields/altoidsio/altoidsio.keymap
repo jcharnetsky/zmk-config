@@ -124,8 +124,8 @@
         // |usb|pr6|pr5|pr4|
         // -----------------
             bindings = <
-                &out OUT_TOG   &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0
-                &bt BT_CLR   &bt BT_SEL 5   &bt BT_SEL 4   &bt BT_SEL 3
+                &none   &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0
+                &none   &bt BT_SEL 5   &bt BT_SEL 4   &bt BT_SEL 3
             >;
         };
 
@@ -207,7 +207,7 @@
 		combo_space           { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_S KEY_N KEY_T KEY_H>; bindings = <&kp SPACE>; };
 		combo_shift           { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_H KEY_E KEY_O KEY_A>; bindings = <&sk LSHFT>; };
 		combo_layer_bt_select { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_A KEY_S KEY_H>; bindings = <&tog BLUE>; };
-		combo_soft_off        { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_O KEY_N KEY_T>; bindings = <&soft_off>; };
+		combo_bt_clear        { layers= <BLUE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_O KEY_N KEY_T>; bindings = <&bt BT_CLR>; };
 
 		combo_z               { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_A>; bindings = <&kp Z>; };
 		combo_caps_lock       { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_N KEY_T KEY_S>; bindings = <&kp CAPS>; };
