@@ -109,29 +109,23 @@
 
         extra {
         // -----------------
-        // |   |v +|mut|ins|
+        // |bot|v +|mut|ins|
         // |   |v -|psr|del|
         // -----------------
             bindings = <
-                &none      &kp K_VOL_UP   &kp K_MUTE  &kp INS
-                &mo EXTRA  &kp K_VOL_DN   &kp PSCRN   &kp DEL
+                &bootloader &kp K_VOL_UP   &kp K_MUTE  &kp INS
+                &mo EXTRA   &kp K_VOL_DN   &kp PSCRN   &kp DEL
             >;
         };
 
         bluetooth {
-        // Left four keys to enter bootloader
-        // Center four keys to reset bluetooth
-        //   reset
-        //       bt res
         // -----------------
         // |   |pr3|pr2|pr1|
         // |   |pr6|pr5|pr4|
         // -----------------
-        //       bt res
-        //   reset
             bindings = <
-                &none   &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0
-                &none   &bt BT_SEL 5   &bt BT_SEL 4   &bt BT_SEL 3
+                &none      &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0
+                &bt BT_CLR &bt BT_SEL 5   &bt BT_SEL 4   &bt BT_SEL 3
             >;
         };
 
@@ -209,8 +203,6 @@
 		combo_tab       { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_S>; bindings = <&kp TAB>; };
 		combo_space     { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_S KEY_N KEY_T KEY_H>; bindings = <&kp SPACE>; };
 		combo_shift     { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_H KEY_E KEY_O KEY_A>; bindings = <&sk LSHFT>; };
-		combo_bt_clear  { layers= <BLUE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_O KEY_N KEY_T>; bindings = <&bt BT_CLR>; };
-		combo_boot      { layers= <BLUE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_O KEY_A KEY_N KEY_S>; bindings = <&bootloader>; };
 
 		combo_z         { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_E KEY_O KEY_A>; bindings = <&kp Z>; };
 		combo_caps_lock { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_U KEY_N KEY_T KEY_S>; bindings = <&kp CAPS>; };
