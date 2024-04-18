@@ -173,8 +173,8 @@
 		combo_w       { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_U KEY_A>; bindings = <&kp W>; };
 		combo_y       { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_O>; bindings = <&kp Y>; };
 		combo_period  { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_T>; bindings = <&kp PERIOD>; };
-		combo_comma   { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_N>; bindings = <&kp EQUAL>; };
-		combo_quote   { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_S>; bindings = <&kp MINUS>; };
+		combo_comma   { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_N>; bindings = <&kp COMMA>; };
+		combo_quote   { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_S>; bindings = <&kp SQT>; };
 		combo_gui     { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_U KEY_S>; bindings = <&sk LGUI>; };
 		
 		combo_seven   { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_U KEY_E>; bindings = <&kp N7>; };
