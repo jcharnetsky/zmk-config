@@ -45,7 +45,7 @@
         // | S | N | T | H |
         // -----------------
             bindings = <
-                &layer_parentheticals_kp NUMBER A  &kp O   &kp E   &layer_numbers_kp PAREN I
+                &layer_parentheticals_kp PAREN A  &kp O   &kp E   &layer_numbers_kp NUMBER I
                 &layer_extra_kp EXTRA S     &kp N   &kp T   &layer_symbols_kp SYMBOL H
             >;
         };
