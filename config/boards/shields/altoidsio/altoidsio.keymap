@@ -45,7 +45,7 @@
         // | S | N | T | H |
         // -----------------
             bindings = <
-                &layer_numbers_kp NUMBER A  &kp O   &kp E   &layer_parentheticals_kp PAREN I
+                &layer_parentheticals_kp NUMBER A  &kp O   &kp E   &layer_numbers_kp PAREN I
                 &layer_extra_kp EXTRA S     &kp N   &kp T   &layer_symbols_kp SYMBOL H
             >;
         };
@@ -73,26 +73,26 @@
         };
 
         number {
-        //         8   7
+        //     8   7        
         // -----------------
-        // |   | 3 | 2 | 1 |
-        // |   | 6 | 5 | 4 |
+        // | 3 | 2 | 1 |   |   
+        // | 6 | 5 | 4 |   |   
         // -----------------
-        //         0   9
+        //     0   9        
             bindings = <
-                &mo NUMBER  &kp N3   &kp N2   &kp N1
-                &none       &kp N6   &kp N5   &kp N4
+                &kp N3   &kp N2   &kp N1  &mo NUMBER  
+                &kp N6   &kp N5   &kp N4  &none       
             >;
         };
 
         parenthesis {
         // -----------------
-        // | { | [ | ( |   |
-        // | } | ] | ) |   |
+        // |   | [ | { | ( |
+        // |   | ] | } | ) |
         // -----------------
             bindings = <
-                &kp LBRC   &kp LBKT   &kp LPAR   &mo PAREN
-                &kp RBRC   &kp RBKT   &kp RPAR   &none
+                &mo PAREN  &kp LBKT   &kp LBRC   &kp LPAR
+                &none      &kp RBKT   &kp RBRC   &kp RPAR
             >;
         };
 
@@ -130,15 +130,15 @@
         };
 
         function {
-        //         8   7
+        //     8   7        
         // -----------------
-        // |11 | 3 | 2 | 1 |
-        // |12 | 6 | 5 | 4 |
+        // | 3 | 2 | 1 | 11|
+        // | 6 | 5 | 4 | 12|
         // -----------------
-        //         0   9
+        //     0   9        
             bindings = <
-                &kp F11  &kp F3   &kp F2   &kp F1
-                &kp F12  &kp F6   &kp F5   &kp F4
+                &kp F3   &kp F2   &kp F1  &kp F11  
+                &kp F6   &kp F5   &kp F4  &kp F12  
             >;
         };
     };
@@ -170,14 +170,14 @@
 		combo_quote   { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_S>; bindings = <&kp SQT>; };
 		combo_gui     { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_S>; bindings = <&sk LGUI>; };
 		
-		combo_seven   { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_E>; bindings = <&kp N7>; };
-		combo_eight   { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_O>; bindings = <&kp N8>; };
-		combo_nine    { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_T>; bindings = <&kp N9>; };
-		combo_zero    { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_T>; bindings = <&kp N0>; };
-		combo_f_seven { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_E>; bindings = <&kp F7>; };
-		combo_f_eight { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_O>; bindings = <&kp F8>; };
-		combo_f_nine  { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_T>; bindings = <&kp F9>; };
-		combo_f_ten   { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_T>; bindings = <&kp F10>; };
+		combo_seven   { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_E>; bindings = <&kp N7>; };
+		combo_eight   { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_O>; bindings = <&kp N8>; };
+		combo_nine    { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_T>; bindings = <&kp N9>; };
+		combo_zero    { layers = <NUMBER>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_T>; bindings = <&kp N0>; };
+		combo_f_seven { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_E>; bindings = <&kp F7>; };
+		combo_f_eight { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_O>; bindings = <&kp F8>; };
+		combo_f_nine  { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_T>; bindings = <&kp F9>; };
+		combo_f_ten   { layers = <FUN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_T>; bindings = <&kp F10>; };
 
 
 		/*****************************************
