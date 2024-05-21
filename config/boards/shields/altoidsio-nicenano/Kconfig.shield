@@ -1,2 +1,2 @@
-config SHIELD_ALTOIDSIO
+config SHIELD_ALTOIDSIO-NICENANO
     def_bool $(shields_list_contains,altoidsio-nicenano)

@@ -1,4 +1,4 @@
-if SHIELD_ALTOIDSIO
+if SHIELD_ALTOIDSIO-NICENANO
 
 config ZMK_KEYBOARD_NAME
     default "Altoid IO"
