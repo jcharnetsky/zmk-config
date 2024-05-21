@@ -1,4 +1,4 @@
-if SHIELD_ALTOIDSIO-XIAO
+if SHIELD_ALTOIDSIO_XIAO
 
 config ZMK_KEYBOARD_NAME
     default "Altoid IO"

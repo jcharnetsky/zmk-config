@@ -21,4 +21,4 @@ include:
   - board: nice_nano_v2
     shield: altoidsio-nicenano
   - board: seeeduino_xiao_ble
-    shield: altoidsio-xiao
+    shield: altoidsio_xiao
