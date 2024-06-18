@@ -150,7 +150,7 @@
 		/*****************************************
 		 * 2 key combos
 		 *****************************************/
-		combo_space   { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_H>; bindings = <&kp SPACE>; };
+		combo_enter   { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_H>; bindings = <&kp ENTER>; };
 		combo_ctrl    { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_H>; bindings = <&sk LCTRL>; };
 		combo_alt     { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_N>; bindings = <&sk LALT>; };
 		combo_bspc    { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_H>; bindings = <&kp BACKSPACE>; };
@@ -199,10 +199,10 @@
 		combo_layer_fun { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_A KEY_N KEY_S>; bindings = <&sl FUN>; };
 		combo_layer_bt  { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_I KEY_A KEY_S KEY_H>; bindings = <&tog BLUE>; };
 		combo_tab       { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_I KEY_E KEY_O KEY_S>; bindings = <&kp TAB>; };
-		combo_enter     { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_S KEY_N KEY_T KEY_H>; bindings = <&kp ENTER>; };
 		combo_shift     { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_H KEY_E KEY_O KEY_A>; bindings = <&sk LSHFT>; };
 
-		combo_z         { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_I KEY_E KEY_O KEY_A>; bindings = <&kp Z>; };
+		combo_space     { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_I KEY_E KEY_O KEY_A>; bindings = <&kp SPACE>; };
+		combo_z         { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_S KEY_N KEY_T KEY_H>; bindings = <&kp Z>; };
 		combo_caps_lock { layers = <BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_I KEY_N KEY_T KEY_S>; bindings = <&kp CAPS>; };
 	};
 		/*****************************************
